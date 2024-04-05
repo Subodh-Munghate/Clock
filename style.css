@@ -1,0 +1,14 @@
+#box{
+    height: 400px;
+    width: 400px;
+    /* background:conic; */
+    border-radius: 50%;
+    background: conic-gradient(violet,black,indigo,blue,green,gray,yellow,aqua,aquamarine,orange,red,violet);
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+    100%{
+        rotate: 360deg;
+    }
+}
